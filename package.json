@@ -1,0 +1,32 @@
+{
+  "name": "weight_link_data_generator",
+  "version": "1.0.0",
+  "description": "This will generate random data for weigh link",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/btsl/weight_link_data_generator.git"
+  },
+  "author": "Syed Md. Kamruzzaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/btsl/weight_link_data_generator/issues"
+  },
+  "homepage": "https://gitlab.com/btsl/weight_link_data_generator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
